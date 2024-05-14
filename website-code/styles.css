@@ -1,0 +1,21 @@
+h1{
+color: white;
+font-family: "eight", sans-serif;
+weight:400;
+font-style: normal;
+font-size: 72pt;
+}
+nav{
+color: white;
+font-size:48pt;
+display: flex;
+justify-content: space-between;
+margin-left: 1rem;
+margin-right: 1rem;
+}
+.contact-info{
+display: flex;
+justify-content: space-between;
+margin-left: 15rem;
+margin-right: 15rem;
+}
