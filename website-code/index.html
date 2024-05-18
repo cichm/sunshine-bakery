@@ -9,12 +9,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-    <title>Sunshine-Bakery</title>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="apple-mobile-web-app-title" content="Sunshine Bakery">
+<meta name="application-name" content="Sunshine Bakery">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="theme-color" content="#ffffff">  
+<title>Sunshine-Bakery</title>
 </head>
 <body>
 <header>
+    <div class="hed">
 <img src="images/logo.svg" alt="logo">
 <h1>Sunshine Bakery</h1>
+</div>
 <nav>
 <a href="index.html">Home</a>
 <a href="about.html">About</a>
@@ -23,26 +34,34 @@
 <a href="order.html">Order</a>
 </nav>
 </header>  
-<main>
+<main class="home">
+<div class="griddy">
 <section class="welcome">
 <h3>Welcome!</h3>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet </p>
 </section>
 <section class="location">
-<h5>Location and Hours:</h5>
-<p>Location:<br>310 S. Barstow St.<br>Eau Claire, WI 54701</p>
-<p>Hours:<br>Monday-Thursday: 7am-2pm<br> Friday-Saturday: 7am-5pm<br>Sunday: 7am-12pm</p>
-<img src="images/map.png" alt="location">
+<h3 class="loctext">Location and Hours:</h3>
+<div class="loca">
+<h5>Location</h5>
+<p>310 S. Barstow St.<br>Eau Claire, WI 54701</p>
+</div>
+<div class="hours">
+<h5>Hours</h5>
+<p>Monday-Thursday: 7am-2pm<br> Friday-Saturday: 7am-5pm<br>Sunday: 7am-12pm</p>
+</div>
+<img class="loc" src="images/map.png" alt="location">
 </section>
-<section class="donate">
+<section class="donates">
 <h3>Donate</h3>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel </p>
-<button>Learn More</button>
+<div class="link"><a href="donate.html"><button>Learn More</button></a></div>
 </section>
+</div>
 <section class="gallery">
 <h1>Gallery</h1>
 <img src="images/doughnuts.png" alt="doughnuts">
-<img src="images/blueberry-bread.ai" alt="blue-bread">
+<img src="images/bread-booberry.png" alt="blue-bread">
 <img src="images/maple-cinna.png" alt="maple-cinnamon">
 <img src="images/apple-pie.png" alt="apple-pie">
 <img src="images/blue-scone.png" alt="blueberry-scone">
@@ -55,7 +74,7 @@
 <img src="images/choc-scone.png" alt="chocolate-scone">
 </section>
 </main>
-<section>
+<section class="info">
 <h1>Contact Information</h1>
 <div class="contact-info"><p>Email Us: sunbakery@gmail.com</p>
 <p>Call us: 715-814-7563</p></div>

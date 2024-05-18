@@ -9,12 +9,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-    <title>Sunshine-Bakery</title>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="apple-mobile-web-app-title" content="Sunshine Bakery">
+<meta name="application-name" content="Sunshine Bakery">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="theme-color" content="#ffffff"> 
+<title>Sunshine-Bakery</title>
 </head>
 <body>
 <header>
+    <div class="hed">
 <img src="images/logo.svg" alt="logo">
 <h1>Sunshine Bakery</h1>
+</div>
 <nav>
 <a href="index.html">Home</a>
 <a href="about.html">About</a>
@@ -23,42 +34,152 @@
 <a href="order.html">Order</a>
 </nav>
 </header>  
-<main>
-<h1>Menu</h1>
-
-<div>
+<main class="menu">
+<h1 class="men">Menu</h1>
+<div class="buttons-menu">
+<a href="#doughnuts">Doughnuts</a>
+<a href="#bread">Breads</a>
+<a href="#scone">Scones and Croissants</a>
+<a href="#roll">Cinnamon Rolls</a>
+<a href="#turnover">Turnovers</a>
+<a href="#pies">Pies</a>
+<a href="#other">Other Goodies</a>
+</div>
+<div class="background">
+<div id="doughnuts">
 <h1>Doughnuts</h1>
 </div>
-<div class="doughnuts">
+<section class="dough">
+<div class="cake">
 <h4>Cake Doughnuts</h4>
-<img src="images/" alt="">
-<p>Plain
-    Chocolate Frosted
-    Vanilla Frosted
-    Blueberry
+<img src="images/cake-doughnuts.png" alt="cake">
+<p>Plain<br>
+    Chocolate Frosted<br>
+    Vanilla Frosted<br>
+    Blueberry<br>
     Raspberry</p>
 </div>
 <div class="filled">
 <h4>Filled Doughnuts</h4>
-    <img src="images/" alt="">
-    <p>Strawberry jam
-        Blueberry jam
-        Lemon Filling
-        Cherry jelly
-        Chocolate filling
+    <img src="images/filled-donut.png" alt="lemon-filled-doughnuts">
+    <p>Strawberry jam<br>
+        Blueberry jam<br>
+        Lemon Filling<br>
+        Cherry jelly<br>
+        Chocolate filling<br>
         Cream filling</p>
 </div>
 <div class="glazed">
 <h4>Glazed Doughnuts</h4>
-<img src="images/" alt="">
-<p>Plain
-    Chocolate iced
-    Blueberry
-    Lemon
+<img src="images/doughnuts.png" alt="glazed-doughnuts">
+<p>Plain<br>
+    Chocolate iced<br>
+    Blueberry<br>
+    Lemon<br>
     Strawberry</p>
 </div>
+</section>
+<div id="bread">
+    <h1>Breads</h1>
+    </div>
+    <div class="type-bread">
+    <img src="images/bread-booberry.png" alt="blue-bread">
+    <p>Banana<br>
+        Blueberry<br>
+        Lemon<br>
+        Cinnamon<br>
+        Cranberry<br>
+        Sourdough<br>
+        Baguette
+    </p>
+    </div>
+    <div id="scone">
+        <h1>Scones and Croissants</h1>
+        </div>
+        <section class="slist">
+        <div class="scones">
+        <h4>Scones</h4>
+        <img src="images/lemon-scone.png" alt="lemon">
+        <p>
+        Blueberry <br>
+        Lemon<br>
+        Cranberry<br>
+        Chocolate<br>
+        Raspberry
+        </p>
+        </div>
+        <div id="cross">
+            <h4>Croissants</h4>
+            <img src="images/choc-croissant.png" alt="choc-croissant">
+            <p>
+            Plain<br>
+            Chocolate
+            </p>
+            </div>
+            </section>
+            <div id="roll">
+                <h1>Cinnamon Rolls</h1>
+                </div>
+                <div class="cinna">
+                <img src="images/maple-cinna.png" alt="maple">
+                <p>
+                Plain<br>
+                Maple-flavored<br>
+                nuts<br>
+                Maple and nuts<br>
+                Blueberry-flavored<br>
+                Chocolate-flavored<br>
+                Salted Caramel
+                </p>
+                </div>
+                <div id="turnover">
+                    <h1>Turnovers</h1>
+                    </div>
+                    <div class="turn">
+                    <img src="images/apple-turnover.png" alt="apple">
+                    <p>
+                   Apple<br>
+                   Blueberry<br>
+                   Cherry<br>
+                   Lemon<br>
+                   Raspberry<br>
+                   Cream Cheese<br>
+                   Strawberry
+                    </p>
+                    </div>
+                    <div id="pies">
+                        <h1>Pies</h1>
+                        </div>
+                        <div class="pie">
+                        <img src="images/pumpkin-pie.png" alt="pumpkin">
+                        <p>
+                       Apple<br>
+                       pumpkin<br>
+                       Blueberry<br>
+                       French Silk<br>
+                       Pecan<br>
+                       Banana Cream<br>
+                       Strawberry
+                        </p>
+                        </div>
+                        <div id="other">
+                            <h1>Other Goodies</h1>
+                            </div>
+                            <div class="goodies">
+                            <img src="images/churro.png" alt="churro">
+                            <p>
+                           Cannoli<br>
+                           Churro<br>
+                           Prune Kolache<br>
+                           Lemon Kolache<br>
+                           Cream Cheese Kolache<br>
+                           Poppyseed Kolache<br>
+                           Apricot Kolache
+                            </p>
+                            </div>
+                            </div>
 </main>
-<section>
+<section class="info">
 <h1>Contact Information</h1>
 <div class="contact-info"><p>Email Us: sunbakery@gmail.com</p>
 <p>Call us: 715-814-7563</p></div>
